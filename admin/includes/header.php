@@ -46,7 +46,7 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="home.php" class="logo d-flex align-items-center">
+      <a href="dashboard.php" class="logo d-flex align-items-center">
         <img src="../../uploads/logo.png" alt="">
         <span class="d-none d-lg-block text-white"><small>GAF-MARKET</small></span>
       </a>
@@ -259,103 +259,25 @@
   </header><!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
-  <aside id="sidebar" class="sidebar"> 
-
+   <!-- Sidebar -->
+   <aside id="sidebar" class="sidebar">
     <ul class="sidebar-nav" id="sidebar-nav">
-
+      <li class="nav-item"><a class="nav-link" href="Dashboard.php"><i class="bi bi-grid"></i>Dashboard</a></li>
       <li class="nav-item">
-        <a class="nav-link " href="dashboard.php">
-          <i class="bi bi-grid-3x2-gap"></i>
-          <span>Dashboard</span>
+        <!-- <a class="nav-link collapsed" data-bs-target="#user-management-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-people"></i><span>Manage Users</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-      </li><!-- End Dashboard Nav -->
-
-          <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-funnel-fill"></i><span>Filter Products</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-      <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <!-- Price Filter Button -->
-            <button class="btn btn-link nav-link bg-transparent ms-3" data-bs-toggle="modal" data-bs-target="#priceFilterModal">
-                <i class="bi bi-cash" style="font-size: large;"></i><span style="font-size: 14px;">Price</span>
-            </button>
-          </li>
-          <li>
-            <!-- Category Filter Button -->
-            <button class="btn btn-link nav-link bg-transparent ms-3" data-bs-toggle="modal" data-bs-target="#categoryFilterModal">
-                <i class="bi bi-bar-chart-line " style="font-size: large;"></i><span style="font-size: 14px;">Categories</span>
-            </button>
-          </li>
-      </ul>
-    </li>
-      <!-- End resources Nav -->
-            <li class="nav-item">
-
-      <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-cart-plus-fill"></i><span>Products</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="icons-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="addproduct.php">
-            <i class="bi bi-plus-circle-fill" style="font-size: large;"></i><span>Add Product</span>
-          </a>
-        </li>
-        <li>
-          <a href="myproduct.php">
-            <i class="bi bi-cart3" style="font-size: large;"></i><span>My Products</span>
-          </a>
-        </li>
-      </ul>
-      </li>
-
-      <li class="nav-item">
-
-        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-diagram-3-fill"></i><span>History</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li> 
-            <a href="purchases.php">
-              <i class="bi bi-bag-heart-fill" style="font-size: large;"></i><span>Purchases</span>
-            </a>
-          </li>
-          <li>
-            <a href="bookmarks.php">
-              <i class="bi bi-bookmarks" style="font-size: large;"></i><span>Bookmarks</span>
-            </a>
-          </li>
+        <ul id="user-management-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li><a href="manage-users.php"><i class="bi bi-circle"></i> All Users</a></li>
         </ul>
-      </li>
-      
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#history-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-gear"></i><span>Settings</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="history-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="contactUs.php">
-              <i class="bi bi-chat-left-text" style="font-size: large;"></i><span>Contact us</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-box-arrow-right" style="font-size: large;"></i><span>Logout</span>
-            </a>
-          </li>
-        </ul> 
-</li>
-
-      
-
-
-
-
-
+      </li> -->
+      <li class="nav-item"><a class="nav-link" href="manage-users.php"><i class="bi bi-people"></i>Manage Users</a></li>
+      <li class="nav-item"><a class="nav-link" href="manage-reports.php"><i class="bi bi-file-earmark-text"></i>Manage Reports</a></li>
+      <!-- <li class="nav-item"><a class="nav-link" href="settings.php"><i class="bi bi-gear"></i>Settings</a></li> -->
+      <li class="nav-item"><a class="nav-link" href="Dashboard.php?action=signout"><i class="bi bi-box-arrow-right"></i>Logout</a></li>
     </ul>
-
-  </aside><!-- End Sidebar-->
+  </aside>
+  <!-- End Sidebar-->
 
 
 <!-- Price Filter Modal -->

@@ -149,13 +149,24 @@ include('productCard.php'); // Include the product card component
                     <div class="row">
                         <?php
                         
-                        renderProductCard("Yaw D.Luffy", "25th October, 2024, 10:43", "Army uniform - WW2", "10,000", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quasi assumenda animi autem ullam praesentium laudantium nihil consectetur. Quas, obcaecati.", "../../uploads/uniform.jpeg");
+                        renderProductCard("Joseph Whajah Evonlah", "29th April, 2024, 08:4213", "Military No.1 Uniform", "15,000,000", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos. Tempora porro officia a, iste explicabo aliquid architecto dolor nulla.", "../../uploads/Number-One.jpg");
 
-                        renderProductCard("Abena Uchiha ", "30th September, 2024, 10:43", "Army boots - Russia", "3,000,000", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos. Tempora porro officia a, iste explicabo aliquid architecto dolor nulla.", "../../uploads/boots.jpeg");
+                        renderProductCard("Abena Uchiha ", "30th September, 2024, 10:43", "Army Strong Combat Boots", "3,000,000", "Mountaineering Battlefield Combat Boots high-top Desert Combat Boots Comfortable Breathable Combat Boots", "../../uploads/Mountaineering Battlefield Combat Boots high-top Desert Combat Boots Comfortable Breathable Combat Boots.jpg");
                         
-                        renderProductCard("Akosua Adjei Ichigo", "5th July, 2024, 10:43", "Army uniform - WW2", "10,000", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quasi assumenda animi autem ullam praesentium laudantium nihil consectetur. Quas, obcaecati.", "../../uploads/uniform.jpeg");
+                        renderProductCard("Akosua Adjei Ichigo", "5th July, 2024, 10:43", "Military Camo (Tactical)", "10,000", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quasi assumenda animi autem ullam praesentium laudantium nihil consectetur. Quas, obcaecati.", "../../uploads/Camo-Tactical.jpg");
 
-                        renderProductCard("Kofi Uzumaki", "2th May, 2024, 10:43", "Army boots - Russia", "3,000,000", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos. Tempora porro officia a, iste explicabo aliquid architecto dolor nulla.", "../../uploads/boots.jpeg");
+                        renderProductCard("John Miller", "29th April, 2024, 08:4213", "MT Tactical Vest for Men MOLLE Adjustable Chest Rig Combat Vests Lightweight Military Vest with Leg Pack OCP", "15,000,000", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos. Tempora porro officia a, iste explicabo aliquid architecto dolor nulla.", "../../uploads/MT Tactical Vest for Men MOLLE Adjustable Chest Rig Combat Vests Lightweight Military Vest with Leg Pack OCP.jpg");
+
+                        renderProductCard("Whajah Miller", "29th April, 2024, 08:4213", "Army Tactical-OG", "15,000,000", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos. Tempora porro officia a, iste explicabo aliquid architecto dolor nulla.", "../../uploads/Tactical-OG.jpg");
+
+                        renderProductCard("Kofi Uzumaki", "2th May, 2024, 10:43", "Tactical 25L Combat Camouflage Bag Outdoor Sports Pack Hiking Rucksack Knapsack Molle Backpack (Black)", "3,000,000", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos. Tempora porro officia a, iste explicabo aliquid architecto dolor nulla.", "../../uploads/Tactical 25L Combat Camouflage Bag Outdoor Sports Pack Hiking Rucksack Knapsack Molle Backpack.jpg");
+
+                        renderProductCard("Kofi Uzumaki", "2th May, 2024, 10:43", "Back pack with water bladder", "3,000,000", "Lorem ipsum dolor sit amet.", "../../uploads/Back pack with water bladder.jpg");
+
+                        renderProductCard("Joseph Evonlah", "29th April, 2024, 08:4213", " Military 80L Tactical Outdoor Waterproof Adjustable Sports Bag", "15,000,000", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos. Tempora porro officia a, iste explicabo aliquid architecto dolor nulla.", "../../uploads/80L Tactical Outdoor Waterproof Adjustable Sports Bag.jpg");
+
+
+
 
                         ?>
                     </div>
@@ -171,25 +182,25 @@ include('productCard.php'); // Include the product card component
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Nana Addo Dankwa</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">Joseph Whajah Evonlah</a></small>
                                     </div>
                                 </div>
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Bawumia Mahamadu</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">Akosua Adjei Ichigo</a></small>
                                     </div>
                                 </div>
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Nana Addo Dankwa</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">John Miller</a></small>
                                     </div>
                                 </div>
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Bawumia Mahamadu</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">Kofi Uzumaki</a></small>
                                     </div>
                                 </div>
                             </div>
@@ -201,25 +212,25 @@ include('productCard.php'); // Include the product card component
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Nana Addo Dankwa</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">Military No.1 Uniform</a></small>
                                     </div>
                                 </div>
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Bawumia Mahamadu</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">Army Strong Combat Boots</a></small>
                                     </div>
                                 </div>
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Nana Addo Dankwa</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">Military Camo (Tactical)</a></small>
                                     </div>
                                 </div>
                                 <div class="activity-item d-flex">
                                     <i class='bi bi-diagram-3 activity-badge text-success align-self-start'></i>
                                     <div class="activity-content ms-2">
-                                        <small><a href="#" class="fw-small text-dark topsellers">Bawumia Mahamadu</a></small>
+                                        <small><a href="#" class="fw-small text-dark topsellers">Back pack with water bladder</a></small>
                                     </div>
                                 </div>
                             </div>
