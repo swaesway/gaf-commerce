@@ -1,17 +1,11 @@
 <?php
-    include('header.php');   
-
+include('header.php');   
 ?>
-    <title>Dashboard - gafCommerce</title>
-
+<title>Dashboard - gafCommerce</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
 
-
-
 <body>
-
-
   <!-- Sidebar -->
   <?php include('sidebar.php'); ?>
 
@@ -36,12 +30,12 @@
 
               <!-- Search Input -->
               <div class="input-group mb-3">
-                <input type="text" id="searchInput" class="form-control" placeholder="Search reports by users or status...">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search reports by users or status..." onkeyup="searchReports()">
                 <span class="input-group-text"><i class="bi bi-search"></i></span>
               </div>
 
               <!-- Reports Table -->
-              <table class="table table-hover">
+              <table class="table table-hover" id="reportsTable">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -54,10 +48,10 @@
                 <tbody>
                   <?php
                   // PHP logic to fetch reports and loop through them
-                  // Sample data shown here for illustration
                   $reports = [
                     ['id' => 1, 'type' => 'Abuse', 'user' => 'johndoe', 'status' => 'Pending'],
-                    ['id' => 2, 'type' => 'Spam', 'user' => 'janedoe', 'status' => 'Resolved']
+                    ['id' => 2, 'type' => 'Spam', 'user' => 'janedoe', 'status' => 'Resolved'],
+                    ['id' => 3, 'type' => 'Harassment', 'user' => 'alexsmith', 'status' => 'Pending']
                   ];
                   foreach ($reports as $report) {
                     echo "<tr>
@@ -82,4 +76,30 @@
       </div>
     </section>
   </main>
-admin/includes/footer.php
+
+<script>
+// JavaScript function to filter reports table
+function searchReports() {
+  const input = document.getElementById('searchInput');
+  const filter = input.value.toLowerCase();
+  const table = document.getElementById('reportsTable');
+  const rows = table.getElementsByTagName('tr');
+
+  for (let i = 1; i < rows.length; i++) {
+    let visible = false;
+    const cells = rows[i].getElementsByTagName('td');
+    for (let j = 0; j < cells.length; j++) {
+      if (cells[j]) {
+        const cellValue = cells[j].textContent || cells[j].innerText;
+        if (cellValue.toLowerCase().indexOf(filter) > -1) {
+          visible = true;
+          break;
+        }
+      }
+    }
+    rows[i].style.display = visible ? '' : 'none';
+  }
+}
+</script>
+
+<?php include('admin/includes/footer.php'); ?>
