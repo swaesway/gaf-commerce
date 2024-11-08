@@ -2,11 +2,8 @@
 include('header.php');
 ?>
 
-<title>My Products - GAF-MARKET</title>
 
-<main id="main" class="main">
-    <div class="pagetitle">
-        <h1>My Product</h1>
+
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="home.php">Home</a></li>
@@ -132,7 +129,7 @@ include('header.php');
     </section>
 
     
-</main><!-- End #main -->
+
 
 <?php
 include('footer.php');
